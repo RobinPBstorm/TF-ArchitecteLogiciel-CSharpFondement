@@ -10,9 +10,10 @@
 
 //// nombre
 //int entier = 0;
+//long grandEntier = 10;
+
 //float nombreFlottant = 5.5F;
 //double nombreAVirgule = 5.5D;
-//long grandEntier = 10;
 
 //// /!\ dépassement du max des entiers
 //entier = int.MaxValue;
@@ -22,14 +23,16 @@
 
 //bool valeurDeVerite = true;
 
+//const string NOM = "Robin";
 
 //Console.WriteLine(entier.GetType());
 //Console.WriteLine(grandEntier.GetType());
 
 ///*
-// Convention de nammage:
+// Convention de nommage:
 //lowerCamelCase : variable
 //UpperCamleCase : class, fonction
+//UPPER: constante
 
 //choix nom de variable :
 //    en anglais, 
@@ -56,9 +59,9 @@
 ////int number1 = int.Parse(Console.ReadLine());
 ////int number1 = Convert.ToInt32(Console.ReadLine());
 
-//if (int.TryParse(Console.ReadLine(),out int convertion))
+//if (int.TryParse(Console.ReadLine(), out int convertion))
 //{
-//    Console.WriteLine(convertion/2);
+//    Console.WriteLine(convertion / 2);
 //}
 //Console.WriteLine("fin du programme");
 
