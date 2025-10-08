@@ -50,4 +50,4 @@ Console.WriteLine("---Exercie2---");
 
 Celsius t1 = new Celsius(20);
 
-Farhenheit t2 = new Farhenheit(20);
+Fahrenheit t2 = new Fahrenheit(20);

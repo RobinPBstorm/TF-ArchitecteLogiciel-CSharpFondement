@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Exo_Structure
 {
-    public struct Farhenheit
+    public struct Fahrenheit
     {
         public double Temperature;
 
-        public Farhenheit(double temperature)
+        public Fahrenheit(double temperature)
         {
             Temperature = temperature;
         }
