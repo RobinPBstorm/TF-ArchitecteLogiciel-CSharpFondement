@@ -1,10 +1,9 @@
 ﻿
+using System.Collections;
+
 #region tableaux
 #region tableaux à 1 dimension
 // déclaration de notre tableau d'entier
-using System.Collections;
-using System.Data;
-using System.Diagnostics;
 
 int[] table = new int[5];
 // initialisation de la case à l'index 0
@@ -140,17 +139,4 @@ while (commands.TryPop(out string result))
 {
     Console.WriteLine(result);
 }
-#endregion
-
-#region Exercice slide 164
-/*Grâce à une boucle « while » et à l’aide d’une collection, calculez les nombres premiers inférieur à un nombre entier entré au clavier.*/
-
-
-/*Grâce à une boucle « for » et à l’aide d’une collection générique, calculez les x premiers nombres premiers (version optimisée).*/
-
-
-/*Demandez à l’utilisateur d’introduire deux nombres au clavier et faite l’addition de ces deux nombres en ne convertissant que caractère par 
-caractère. (Méthode « ToCharArray() » de la classe « string »).*/
-
-
 #endregion
